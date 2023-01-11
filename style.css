@@ -1,0 +1,116 @@
+body {
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+
+  min-height: 100vh;
+}
+
+.page {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 65px;
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 55px;
+  font-family: 'Mulish', sans-serif;
+}
+
+ul {
+  display: flex;
+  gap: 48px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Mulish', sans-serif;
+}
+
+a {
+  color: #1F1534;
+  text-decoration: none;
+  /*retira qualquer decoração do texto */
+  font-weight: bold;
+}
+
+ul li a {
+  opacity: 0.5;
+}
+
+/*sempre que passar o mouse encima do hover, ele ganha uma caracteristica, nesse caso a palavra e tag a ficarão mais escura, mudará a fonte. */
+ul li a:hover {
+  font-weight: bold;
+  opacity: 1;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* o space-between aloca os conteúdos no limite da página nas laterais */
+}
+
+h1 {
+  font-family: 'Mulish', sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  color: #1F1534;
+  font-weight: normal;
+  width: 490px;
+}
+
+h1 span {
+  color: #89C5CC;
+  font-weight: bold;
+}
+
+section p {
+  color: #7D7987;
+  font-size: 14px;
+  line-height: 28px;
+  margin: 40px 0;
+  /* 40px encima e embaixo e 0px nas laterais */
+}
+
+button {
+  color: white;
+  text-transform: uppercase;
+  /* Caixa alta ou maiúsculo */
+  font-family: 'Open Sans', sans-serif;
+
+  background: #69B99D;
+  border: none;
+  padding: 14px 32px 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4ea788;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  line-height: 28px;
+  margin-top: 80px;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+
+}
